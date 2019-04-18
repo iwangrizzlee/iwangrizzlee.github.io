@@ -19685,6 +19685,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Spritefont2.prototype.acts.SetVisible,
 	cr.plugins_.Sprite.prototype.acts.LoadURL,
 	cr.plugins_.Arr.prototype.exps.At,
+	cr.plugins_.vkontakte.prototype.acts.FriendsGet,
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
