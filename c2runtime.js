@@ -17411,15 +17411,16 @@ cr.plugins_.vkontakte = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Arr,
 	cr.plugins_.Button,
-	cr.plugins_.vkontakte,
 	cr.plugins_.Text,
+	cr.plugins_.vkontakte,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.vkontakte.prototype.acts.AppUsersGet,
 	cr.plugins_.vkontakte.prototype.cnds.IsReady,
 	cr.plugins_.Arr.prototype.acts.JSONLoad,
 	cr.plugins_.vkontakte.prototype.exps.OwnDataJsonArr,
-	cr.plugins_.vkontakte.prototype.cnds.onAppUsersLoad,
 	cr.plugins_.vkontakte.prototype.exps.AppUsersDataJsonArr,
+	cr.plugins_.vkontakte.prototype.acts.SetTitle,
+	cr.plugins_.vkontakte.prototype.cnds.onAppUsersLoad,
 	cr.plugins_.Button.prototype.cnds.OnClicked,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Arr.prototype.exps.At
