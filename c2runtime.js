@@ -19676,7 +19676,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.system_object.prototype.acts.Wait,
-	cr.plugins_.vkontakte.prototype.cnds.IsReady,
+	cr.plugins_.vkontakte.prototype.cnds.OnReady,
 	cr.system_object.prototype.cnds.TriggerOnce,
 	cr.plugins_.Arr.prototype.acts.JSONLoad,
 	cr.plugins_.vkontakte.prototype.exps.OwnDataJsonArr,
