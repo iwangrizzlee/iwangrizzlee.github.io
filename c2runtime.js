@@ -19436,6 +19436,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.exps.Count,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.system_object.prototype.cnds.OnLayoutEnd,
+	cr.plugins_.vkontakte.prototype.acts.AppUsersGet,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.system_object.prototype.cnds.Repeat,
 	cr.plugins_.Arr.prototype.cnds.CompareX,
@@ -19447,7 +19448,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.vkontakte.prototype.cnds.IsReady,
 	cr.plugins_.Arr.prototype.acts.JSONLoad,
 	cr.plugins_.vkontakte.prototype.exps.OwnDataJsonArr,
-	cr.plugins_.Sprite.prototype.acts.LoadURL,
-	cr.plugins_.vkontakte.prototype.exps.AppUsersDataJsonArr
+	cr.plugins_.vkontakte.prototype.exps.AppUsersDataJsonArr,
+	cr.plugins_.Sprite.prototype.acts.LoadURL
 ];};
 
