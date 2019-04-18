@@ -20251,6 +20251,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Arr.prototype.acts.JSONLoad,
 	cr.plugins_.vkontakte.prototype.exps.OwnDataJsonArr,
 	cr.plugins_.Sprite.prototype.acts.LoadURL,
+	cr.plugins_.vkontakte.prototype.acts.AppUsersGet,
 	cr.plugins_.vkontakte.prototype.cnds.onAppUsersLoadErr,
 	cr.plugins_.vkontakte.prototype.exps.AppUsersDataJsonArr,
 	cr.plugins_.vkontakte.prototype.cnds.onFrLoad
