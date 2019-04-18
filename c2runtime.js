@@ -19401,11 +19401,11 @@ cr.behaviors.scrollto = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
+	cr.plugins_.Arr,
 	cr.plugins_.Mouse,
 	cr.plugins_.Text,
-	cr.plugins_.vkontakte,
 	cr.plugins_.Sprite,
-	cr.plugins_.Arr,
+	cr.plugins_.vkontakte,
 	cr.behaviors.Fade,
 	cr.behaviors.EightDir,
 	cr.behaviors.scrollto,
@@ -19447,6 +19447,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.vkontakte.prototype.cnds.IsReady,
 	cr.plugins_.Arr.prototype.acts.JSONLoad,
 	cr.plugins_.vkontakte.prototype.exps.OwnDataJsonArr,
-	cr.plugins_.Sprite.prototype.acts.LoadURL
+	cr.plugins_.Sprite.prototype.acts.LoadURL,
+	cr.plugins_.vkontakte.prototype.exps.AppUsersDataJsonArr
 ];};
 
